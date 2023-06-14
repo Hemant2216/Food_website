@@ -1,4 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border:none;
 
+}
 
 
 /* ----------nav-bar-styling-------------- */
@@ -436,7 +442,7 @@ ul li a:hover{
 .image3{
     display: flex;
     background-color: whitesmoke;
-    height: 23.7rem;
+    height: 21.7rem;
     border-radius: 7px;
 }
 .image3 img{
@@ -500,6 +506,8 @@ ul li a:hover{
     column-gap: 2rem;
     align-items: center;
     justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
@@ -634,7 +642,7 @@ ul li a:hover{
 @media(max-width:556px){
 
     html{
-        width: 33.5rem;
+        width: 34rem;
     }
 
     #menu-bar > img{
@@ -645,7 +653,7 @@ ul li a:hover{
         border-radius: 0;
         position: absolute;
         z-index: 1;
-        width: 33rem;
+        width: 34rem;
         /* top: 8rem; */
         /* border-top: 2rem solid black; */
         
@@ -689,6 +697,7 @@ ul li a:hover{
         padding-left: 13px;
         border-left: 2px solid white;
         color:white;
+        margin-left: 25px;
     }
 
     .nav-bar > .nav-items > ul > li > a:hover{
