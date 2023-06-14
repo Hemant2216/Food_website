@@ -464,6 +464,7 @@ ul li a:hover{
 
 .fbox h3{
     color: white;
+    margin-top: 20px;
 }
 
 .fbox p{
@@ -515,6 +516,7 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     height: 14rem;
+    gap:0.5rem;
 }
 
 
